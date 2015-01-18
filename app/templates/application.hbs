@@ -1,3 +1,15 @@
 <h2 id="title">Welcome to Ember.js</h2>
 
+<!-- Standard gray default button with gradient -->
+{{#bs-button}}Content{{/bs-button}}
+
+<!--Inline text as button content-->
+{{bs-button title="Inline Text"}}
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+{{#bs-button type="primary"}}Primary{{/bs-button}}
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+{{#bs-button type="link"}}Link{{/bs-button}}
+
 {{outlet}}
